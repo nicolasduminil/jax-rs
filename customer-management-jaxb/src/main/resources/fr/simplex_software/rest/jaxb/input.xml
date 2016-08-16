@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<customer>
+  <firstName>Nicolas</firstName>
+  <lastName>Duminil</lastName>
+  <street>123 A Street</street>
+  <city>Soisy sous Montmorency</city>
+  <state>Val d'Oise</state>
+  <zip>95230</zip>
+  <country>France</country>
+</customer>

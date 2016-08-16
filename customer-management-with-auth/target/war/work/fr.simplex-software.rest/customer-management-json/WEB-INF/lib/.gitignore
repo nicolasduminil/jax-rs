@@ -1,0 +1,17 @@
+/customer-management-domain-0.0.1-SNAPSHOT.jar
+/customer-management-entities-0.0.1-SNAPSHOT.jar
+/customer-management-jaxb-0.0.1-SNAPSHOT.jar
+/customer-management-repository-0.0.1-SNAPSHOT.jar
+/deltaspike-core-api-1.6.1.jar
+/deltaspike-core-impl-1.6.1.jar
+/deltaspike-data-module-api-1.6.1.jar
+/deltaspike-data-module-impl-1.6.1.jar
+/deltaspike-jpa-module-api-1.6.1.jar
+/deltaspike-jpa-module-impl-1.6.1.jar
+/deltaspike-partial-bean-module-api-1.6.1.jar
+/deltaspike-partial-bean-module-impl-1.6.1.jar
+/deltaspike-proxy-module-api-1.6.1.jar
+/deltaspike-proxy-module-impl-asm5-1.6.1.jar
+/jettison-1.3.2.jar
+/resteasy-jaxb-provider-3.0.18.Final.jar
+/resteasy-jettison-provider-3.0.18.Final.jar
