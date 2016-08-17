@@ -40,16 +40,11 @@
     <dependency>
       <groupId>fr.simplex-software.rest</groupId>
       <artifactId>customer-management-repository</artifactId>
-      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.jboss.weld</groupId>
       <artifactId>weld-core</artifactId>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>fr.simplex-software.rest</groupId>
-      <artifactId>customer-management-repository</artifactId>
     </dependency>
   </dependencies>
   <build>

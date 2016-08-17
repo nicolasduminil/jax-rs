@@ -7,6 +7,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 
 import fr.simplex_software.rest.domain.*;
+import fr.simplex_software.rest.jaxb.*;
 import fr.simplex_software.rest.repository.*;
 
 public class CustomerService
@@ -23,7 +24,7 @@ public class CustomerService
     Customer customer = customerFacade.findBy(id);
     if (customer == null)
       throw new WebApplicationException(Response.Status.NOT_FOUND);
-    return customer;
+    return new CustomerJaxb(customer);
   }
 
   @GET
@@ -32,5 +33,13 @@ public class CustomerService
   public String getCustomerString(@PathParam("id") BigInteger id)
   {
     return getCustomer(id).toString();
+  }
+
+  @DELETE
+  @Path("{id}")
+  public Response deleteCustomer(@PathParam("id") BigInteger id)
+  {
+    customerFacade.findAndRemove(id);
+    return Response.ok().build();
   }
 }

@@ -150,7 +150,7 @@
             </execution>
             <execution>
               <id>jboss-undeploy</id>
-              <phase>post-integration-test</phase>
+              <phase>clean</phase>
               <goals>
                 <goal>undeploy</goal>
               </goals>
@@ -210,5 +210,6 @@
     <module>customer-management-basic</module>
     <module>customer-management-json</module>
     <module>customer-management-with-auth</module>
+    <module>customer-management-http-coneg</module>
   </modules>
 </project>

@@ -31,7 +31,7 @@
       <plugin>
         <groupId>org.jboss.as.plugins</groupId>
         <artifactId>jboss-as-maven-plugin</artifactId>
-        <executions>
+        <!-- executions>
           <execution>
             <id>jboss-deploy</id>
             <phase>pre-integration-test</phase>
@@ -46,7 +46,7 @@
               <goal>undeploy</goal>
             </goals>
           </execution>
-        </executions>
+        </executions-->
       </plugin>
     </plugins>
   </build>
